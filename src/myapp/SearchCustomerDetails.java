@@ -65,13 +65,13 @@ public class SearchCustomerDetails extends JFrame {
 		tfNames.setForeground(Color.BLACK);
 		tfNames.setBackground(SystemColor.activeCaption);
 		tfNames.setFont(new Font("Calibri", Font.PLAIN, 20));
-		tfNames.setBounds(224, 38, 343, 27);
+		tfNames.setBounds(159, 38, 173, 27);
 		contentPane.add(tfNames);
 		tfNames.setColumns(10);
 		
 		btnNewButton = new JButton("Search By Name");
-		btnNewButton.setForeground(SystemColor.activeCaption);
-		btnNewButton.setBackground(Color.DARK_GRAY);
+		btnNewButton.setForeground(Color.BLACK);
+		btnNewButton.setBackground(Color.WHITE);
 		btnNewButton.setFont(new Font("Calibri", Font.PLAIN, 16));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -87,19 +87,19 @@ public class SearchCustomerDetails extends JFrame {
  		     }
 			}
 		});
-		btnNewButton.setBounds(423, 92, 144, 28);
+		btnNewButton.setBounds(488, 40, 162, 28);
 		contentPane.add(btnNewButton);
 		
-		lblSearchByName = new JLabel("Search by Name :");
+		lblSearchByName = new JLabel("Search :");
 		lblSearchByName.setForeground(SystemColor.activeCaption);
 		lblSearchByName.setBackground(Color.DARK_GRAY);
 		lblSearchByName.setFont(new Font("Calibri", Font.PLAIN, 20));
-		lblSearchByName.setBounds(70, 39, 162, 26);
+		lblSearchByName.setBounds(52, 38, 95, 26);
 		contentPane.add(lblSearchByName);
 		
 		JButton btnNewButton_1 = new JButton("Back");
-		btnNewButton_1.setForeground(SystemColor.activeCaption);
-		btnNewButton_1.setBackground(Color.DARK_GRAY);
+		btnNewButton_1.setForeground(Color.BLACK);
+		btnNewButton_1.setBackground(Color.WHITE);
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				FeatureFrame x = new FeatureFrame(); 
@@ -107,24 +107,24 @@ public class SearchCustomerDetails extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnNewButton_1.setBounds(577, 92, 89, 24);
+		btnNewButton_1.setBounds(470, 93, 89, 24);
 		contentPane.add(btnNewButton_1);
 		
 		btnNewButton_2 = new JButton("Clear");
-		btnNewButton_2.setForeground(SystemColor.activeCaption);
-		btnNewButton_2.setBackground(Color.DARK_GRAY);
+		btnNewButton_2.setForeground(Color.BLACK);
+		btnNewButton_2.setBackground(Color.WHITE);
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				tfNames.setText("");
 				textArea1.setText("");
 			}
 		});
-		btnNewButton_2.setBounds(577, 38, 89, 27);
+		btnNewButton_2.setBounds(571, 92, 89, 27);
 		contentPane.add(btnNewButton_2);
 		
 		btnNewButton_3 = new JButton("Search By ID");
-		btnNewButton_3.setForeground(SystemColor.activeCaption);
-		btnNewButton_3.setBackground(Color.DARK_GRAY);
+		btnNewButton_3.setForeground(Color.BLACK);
+		btnNewButton_3.setBackground(Color.WHITE);
 		btnNewButton_3.setFont(new Font("Calibri", Font.PLAIN, 16));
 		btnNewButton_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -138,7 +138,7 @@ public class SearchCustomerDetails extends JFrame {
 	 		     }
 			}
 		});
-		btnNewButton_3.setBounds(224, 92, 162, 26);
+		btnNewButton_3.setBounds(344, 41, 132, 26);
 		contentPane.add(btnNewButton_3);
 		setSize(710,478);    setVisible(true);
 		

@@ -29,7 +29,7 @@ class MainGUI extends JFrame implements ActionListener {
 		JLabel lblWelcomeToHotel = new JLabel("Motel Booking System");
 		lblWelcomeToHotel.setForeground(SystemColor.activeCaption);
 		lblWelcomeToHotel.setBackground(Color.DARK_GRAY);
-		lblWelcomeToHotel.setBounds(136, 51, 234, 39);
+		lblWelcomeToHotel.setBounds(104, 53, 299, 39);
 		lblWelcomeToHotel.setFont(new Font("Calibri", Font.BOLD, 25));
 		getContentPane().add(lblWelcomeToHotel);
 		Font f = new Font("TimesRoman", Font.BOLD, 20);
@@ -39,35 +39,35 @@ class MainGUI extends JFrame implements ActionListener {
 		JTextField uName = new JTextField();
 		uName.setForeground(Color.BLACK);
 		uName.setBackground(SystemColor.activeCaption);
-		uName.setBounds(96, 187, 86, 20);
+		uName.setBounds(272, 131, 86, 20);
 		getContentPane().add(uName);
 		uName.setColumns(10);
 
 		JTextField pass = new JTextField();
 		pass.setForeground(Color.BLACK);
 		pass.setBackground(SystemColor.activeCaption);
-		pass.setBounds(302, 187, 86, 20);
+		pass.setBounds(272, 186, 86, 20);
 		getContentPane().add(pass);
 		pass.setColumns(10);
 
-		JLabel lblNewLabel = new JLabel("User Name");
+		JLabel lblNewLabel = new JLabel("Username");
 		lblNewLabel.setForeground(SystemColor.activeCaption);
 		lblNewLabel.setBackground(Color.DARK_GRAY);
-		lblNewLabel.setBounds(103, 144, 79, 20);
+		lblNewLabel.setBounds(116, 130, 99, 20);
 		lblNewLabel.setFont(new Font("Calibri", Font.PLAIN, 16));
 		getContentPane().add(lblNewLabel);
 
 		JLabel lblNewLabel_1 = new JLabel("Password");
 		lblNewLabel_1.setForeground(SystemColor.activeCaption);
 		lblNewLabel_1.setBackground(Color.DARK_GRAY);
-		lblNewLabel_1.setBounds(302, 144, 68, 20);
+		lblNewLabel_1.setBounds(116, 185, 99, 20);
 		lblNewLabel_1.setFont(new Font("Calibri", Font.PLAIN, 16));
 		getContentPane().add(lblNewLabel_1);
 
 		JButton btnNewButton = new JButton("Continue");
-		btnNewButton.setForeground(SystemColor.activeCaption);
-		btnNewButton.setBackground(Color.DARK_GRAY);
-		btnNewButton.setBounds(163, 229, 156, 39);
+		btnNewButton.setForeground(Color.BLACK);
+		btnNewButton.setBackground(Color.WHITE);
+		btnNewButton.setBounds(163, 251, 156, 39);
 		btnNewButton.setFont(new Font("Calisto MT", Font.PLAIN, 20));
 		getContentPane().add(btnNewButton);
 

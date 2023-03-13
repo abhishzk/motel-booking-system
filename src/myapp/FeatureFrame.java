@@ -5,7 +5,7 @@ import java.awt.event.*;
 import javax.swing.*;
 
 class FeatureFrame extends JFrame implements ActionListener{
-	private JLabel l0 = new JLabel("  Motel Booking Features  ");
+	private JLabel l0 = new JLabel("Motel Booking Features");
 	private int index=0;
 
 	private LinkedList list=new LinkedList();
@@ -24,8 +24,8 @@ class FeatureFrame extends JFrame implements ActionListener{
 		
 		JButton btnNewButton = new JButton("Add Customer Details");
 		btnNewButton.setFont(new Font("Calibri", Font.PLAIN, 20));
-		btnNewButton.setForeground(SystemColor.activeCaption);
-		btnNewButton.setBackground(Color.DARK_GRAY);
+		btnNewButton.setForeground(Color.BLACK);
+		btnNewButton.setBackground(Color.WHITE);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
@@ -36,8 +36,8 @@ class FeatureFrame extends JFrame implements ActionListener{
 		getContentPane().add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("Show Customer Details");
-		btnNewButton_1.setForeground(SystemColor.activeCaption);
-		btnNewButton_1.setBackground(Color.DARK_GRAY);
+		btnNewButton_1.setForeground(Color.BLACK);
+		btnNewButton_1.setBackground(Color.WHITE);
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
@@ -57,8 +57,8 @@ class FeatureFrame extends JFrame implements ActionListener{
 		});
 		btnNewButton_2.setFont(new Font("Calibri", Font.PLAIN, 20));
 		btnNewButton_2.setBounds(85, 254, 250, 27);
-		btnNewButton_2.setForeground(SystemColor.activeCaption);
-		btnNewButton_2.setBackground(Color.DARK_GRAY);
+		btnNewButton_2.setForeground(Color.BLACK);
+		btnNewButton_2.setBackground(Color.WHITE);
 		getContentPane().add(btnNewButton_2);
 		
 		JButton btnNewButton_3 = new JButton("Delete Customer Details");
@@ -69,14 +69,15 @@ class FeatureFrame extends JFrame implements ActionListener{
 			}
 		});
 		btnNewButton_3.setFont(new Font("Calibri", Font.PLAIN, 20));
-		btnNewButton_3.setForeground(SystemColor.activeCaption);
-		btnNewButton_3.setBackground(Color.DARK_GRAY);
+		btnNewButton_3.setForeground(Color.BLACK);
+		btnNewButton_3.setBackground(Color.WHITE);
 		btnNewButton_3.setBounds(85, 311, 250, 27);
 		getContentPane().add(btnNewButton_3);
-		setSize(441,442);    setVisible(true);}
+		setSize(441,442);    }
 
 	public FeatureFrame() {
 		// TODO Auto-generated constructor stub
+		
 	}
 
 	public void actionPerformed(ActionEvent e)

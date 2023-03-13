@@ -63,14 +63,14 @@ public class AddCustomerDetails extends JFrame {
 		lblName.setForeground(SystemColor.activeCaption);
 		lblName.setBackground(Color.DARK_GRAY);
 		lblName.setFont(new Font("Calibri", Font.PLAIN, 20));
-		lblName.setBounds(28, 109, 159, 21);
+		lblName.setBounds(28, 109, 167, 21);
 		contentPane.add(lblName);
 
 		tfName = new JTextField();
 		tfName.setForeground(Color.BLACK);
 		tfName.setBackground(SystemColor.activeCaption);
 		tfName.setFont(new Font("Calibri", Font.PLAIN, 16));
-		tfName.setBounds(197, 109, 227, 21);
+		tfName.setBounds(263, 110, 227, 21);
 		contentPane.add(tfName);
 		tfName.setColumns(10);
 
@@ -78,14 +78,14 @@ public class AddCustomerDetails extends JFrame {
 		lblContactNumber.setForeground(SystemColor.activeCaption);
 		lblContactNumber.setBackground(Color.DARK_GRAY);
 		lblContactNumber.setFont(new Font("Calibri", Font.PLAIN, 20));
-		lblContactNumber.setBounds(28, 152, 159, 27);
+		lblContactNumber.setBounds(28, 152, 194, 27);
 		contentPane.add(lblContactNumber);
 
 		tfContact = new JTextField();
 		tfContact.setForeground(Color.BLACK);
 		tfContact.setBackground(SystemColor.activeCaption);
 		tfContact.setFont(new Font("Calibri", Font.PLAIN, 16));
-		tfContact.setBounds(197, 155, 227, 22);
+		tfContact.setBounds(263, 156, 227, 22);
 		contentPane.add(tfContact);
 		tfContact.setColumns(10);
 
@@ -100,7 +100,7 @@ public class AddCustomerDetails extends JFrame {
 		tfRoomType.setForeground(Color.BLACK);
 		tfRoomType.setBackground(SystemColor.activeCaption);
 		tfRoomType.setFont(new Font("Calibri", Font.PLAIN, 16));
-		tfRoomType.setBounds(197, 199, 227, 21);
+		tfRoomType.setBounds(263, 200, 227, 21);
 		contentPane.add(tfRoomType);
 		tfRoomType.setColumns(10);
 
@@ -108,20 +108,20 @@ public class AddCustomerDetails extends JFrame {
 		lblRoomnumber.setForeground(SystemColor.activeCaption);
 		lblRoomnumber.setBackground(Color.DARK_GRAY);
 		lblRoomnumber.setFont(new Font("Calibri", Font.PLAIN, 20));
-		lblRoomnumber.setBounds(28, 244, 143, 26);
+		lblRoomnumber.setBounds(28, 244, 179, 26);
 		contentPane.add(lblRoomnumber);
 
 		tfRoomNumber = new JTextField();
 		tfRoomNumber.setForeground(Color.BLACK);
 		tfRoomNumber.setBackground(SystemColor.activeCaption);
 		tfRoomNumber.setFont(new Font("Calibri", Font.PLAIN, 16));
-		tfRoomNumber.setBounds(197, 247, 227, 22);
+		tfRoomNumber.setBounds(263, 248, 227, 22);
 		contentPane.add(tfRoomNumber);
 		tfRoomNumber.setColumns(10);
 
 		btnNewButton = new JButton("Add Booking");
-		btnNewButton.setForeground(SystemColor.activeCaption);
-		btnNewButton.setBackground(Color.DARK_GRAY);
+		btnNewButton.setForeground(Color.BLACK);
+		btnNewButton.setBackground(Color.WHITE);
 		btnNewButton.setFont(new Font("Calibri", Font.PLAIN, 18));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -154,14 +154,14 @@ public class AddCustomerDetails extends JFrame {
 		lblBookingTime.setForeground(SystemColor.activeCaption);
 		lblBookingTime.setBackground(Color.DARK_GRAY);
 		lblBookingTime.setFont(new Font("Calibri", Font.PLAIN, 20));
-		lblBookingTime.setBounds(28, 294, 137, 21);
+		lblBookingTime.setBounds(28, 294, 167, 21);
 		contentPane.add(lblBookingTime);
 
 		tfBookingTime = new JTextField();
 		tfBookingTime.setForeground(Color.BLACK);
 		tfBookingTime.setBackground(SystemColor.activeCaption);
 		tfBookingTime.setFont(new Font("Calibri", Font.PLAIN, 16));
-		tfBookingTime.setBounds(197, 294, 227, 21);
+		tfBookingTime.setBounds(263, 295, 227, 21);
 		contentPane.add(tfBookingTime);
 		tfBookingTime.setColumns(10);
 
@@ -169,13 +169,13 @@ public class AddCustomerDetails extends JFrame {
 		lblAddDetails.setForeground(SystemColor.activeCaption);
 		lblAddDetails.setBackground(Color.DARK_GRAY);
 		lblAddDetails.setFont(new Font("Calibri", Font.BOLD, 25));
-		lblAddDetails.setBounds(213, 22, 143, 35);
+		lblAddDetails.setBounds(213, 22, 179, 35);
 		contentPane.add(lblAddDetails);
 
 		btnBack = new JButton("Back");
 		btnBack.setFont(new Font("Calibri", Font.PLAIN, 18));
-		btnBack.setForeground(SystemColor.activeCaption);
-		btnBack.setBackground(Color.DARK_GRAY);
+		btnBack.setForeground(Color.BLACK);
+		btnBack.setBackground(Color.WHITE);
 		btnBack.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
@@ -189,8 +189,8 @@ public class AddCustomerDetails extends JFrame {
 
 		btnNewButton_1 = new JButton("Clear");
 		btnNewButton_1.setFont(new Font("Calibri", Font.PLAIN, 18));
-		btnNewButton_1.setForeground(SystemColor.activeCaption);
-		btnNewButton_1.setBackground(Color.DARK_GRAY);
+		btnNewButton_1.setForeground(Color.BLACK);
+		btnNewButton_1.setBackground(Color.WHITE);
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				idtf.setText("");
@@ -208,7 +208,7 @@ public class AddCustomerDetails extends JFrame {
 		idtf.setForeground(Color.BLACK);
 		idtf.setBackground(SystemColor.activeCaption);
 		idtf.setFont(new Font("Calibri", Font.PLAIN, 16));
-		idtf.setBounds(197, 68, 227, 20);
+		idtf.setBounds(263, 69, 227, 20);
 		contentPane.add(idtf);
 		idtf.setColumns(10);
 
@@ -216,7 +216,7 @@ public class AddCustomerDetails extends JFrame {
 		lblId.setForeground(SystemColor.activeCaption);
 		lblId.setFont(new Font("Calibri", Font.PLAIN, 20));
 		lblId.setBackground(Color.DARK_GRAY);
-		lblId.setBounds(28, 67, 127, 21);
+		lblId.setBounds(28, 67, 159, 21);
 		contentPane.add(lblId);
 		setSize(609, 466);
 		setVisible(true);

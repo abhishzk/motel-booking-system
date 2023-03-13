@@ -72,8 +72,8 @@ public class ShowCustomerDetails extends JFrame {
 		contentPane.add(lblCount);
 
 		btnNewButton = new JButton("Show Bookings");
-		btnNewButton.setForeground(SystemColor.activeCaption);
-		btnNewButton.setBackground(Color.DARK_GRAY);
+		btnNewButton.setForeground(Color.BLACK);
+		btnNewButton.setBackground(Color.WHITE);
 		btnNewButton.setFont(new Font("Calibri", Font.PLAIN, 20));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -91,8 +91,8 @@ public class ShowCustomerDetails extends JFrame {
 		contentPane.add(btnNewButton);
 
 		btnNewButton_1 = new JButton("Back");
-		btnNewButton_1.setForeground(SystemColor.activeCaption);
-		btnNewButton_1.setBackground(Color.DARK_GRAY);
+		btnNewButton_1.setForeground(Color.BLACK);
+		btnNewButton_1.setBackground(Color.WHITE);
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				FeatureFrame x = new FeatureFrame();
@@ -104,8 +104,8 @@ public class ShowCustomerDetails extends JFrame {
 		contentPane.add(btnNewButton_1);
 
 		btnNewButton_2 = new JButton("Export");
-		btnNewButton_2.setForeground(SystemColor.activeCaption);
-		btnNewButton_2.setBackground(Color.DARK_GRAY);
+		btnNewButton_2.setForeground(Color.BLACK);
+		btnNewButton_2.setBackground(Color.WHITE);
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 

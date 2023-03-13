@@ -50,8 +50,8 @@ public class DeleteCustomerDetails extends JFrame {
 		contentPane.setLayout(null);
 
 		btnNewButton = new JButton("Delete Recent Customer Entry");
-		btnNewButton.setForeground(SystemColor.activeCaption);
-		btnNewButton.setBackground(Color.DARK_GRAY);
+		btnNewButton.setForeground(Color.BLACK);
+		btnNewButton.setBackground(Color.WHITE);
 		btnNewButton.setFont(new Font("Calibri", Font.PLAIN, 20));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -67,19 +67,19 @@ public class DeleteCustomerDetails extends JFrame {
 				JOptionPane.showMessageDialog(null, text1);
 			}
 		});
-		btnNewButton.setBounds(63, 121, 298, 29);
+		btnNewButton.setBounds(63, 123, 316, 29);
 		contentPane.add(btnNewButton);
 
 		btnDeleteAllBookings = new JButton("Delete All Customer Details");
-		btnDeleteAllBookings.setForeground(SystemColor.activeCaption);
-		btnDeleteAllBookings.setBackground(Color.DARK_GRAY);
+		btnDeleteAllBookings.setForeground(Color.BLACK);
+		btnDeleteAllBookings.setBackground(Color.WHITE);
 		btnDeleteAllBookings.setFont(new Font("Calibri", Font.PLAIN, 20));
 		btnDeleteAllBookings.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 
 				list.delete_all();
-				UIManager.put("OptionPane.background", Color.DARK_GRAY);
-				UIManager.put("OptionPane.foreground", SystemColor.activeCaption);
+				UIManager.put("OptionPane.background", Color.BLACK);
+				UIManager.put("OptionPane.foreground", Color.WHITE);
 				UIManager.put("Panel.background", Color.DARK_GRAY);
 
 				String text2 = "<html> <span style='color:#99B4D1'> Deleted all customer details!</span> </html>";
@@ -87,12 +87,12 @@ public class DeleteCustomerDetails extends JFrame {
 				JOptionPane.showMessageDialog(null, text2);
 			}
 		});
-		btnDeleteAllBookings.setBounds(63, 179, 298, 29);
+		btnDeleteAllBookings.setBounds(63, 175, 316, 29);
 		contentPane.add(btnDeleteAllBookings);
 
 		btnNewButton_1 = new JButton("Back");
-		btnNewButton_1.setForeground(SystemColor.activeCaption);
-		btnNewButton_1.setBackground(Color.DARK_GRAY);
+		btnNewButton_1.setForeground(Color.BLACK);
+		btnNewButton_1.setBackground(Color.WHITE);
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				FeatureFrame x = new FeatureFrame();
